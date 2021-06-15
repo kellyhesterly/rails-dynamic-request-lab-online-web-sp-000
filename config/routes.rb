@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get '/students', to: 'students#index'
   get '/sudents', to: 'students#show'
 
-  resources :students, only: :index
+  # resources :students, only: :index
 end
